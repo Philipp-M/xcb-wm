@@ -11,7 +11,7 @@ repository = "https://github.com/arminfriedl/xcb-wm"
 homepage = "https://github.com/arminfriedl/xcb-wm"
 
 [dependencies]
-xcb = "1"
+xcb = { git = "https://github.com/Philipp-M/rust-xcb.git", branch = "fix-quick-xml" }
 paste = "1"
 bitflags = "1.3.2"
 
